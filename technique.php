@@ -1,40 +1,6 @@
-<html>
-  <head>
-    <title>Blog culture du numérique</title>
-  </head>
-  <body>
-
-     <!-- Menu -->
-    <nav>
-      <div>
-        <a href="#"><img src="images/logo.png"></a>
-        <button>
-          <span></span>
-        </button>
-        <div>
-          <ul>
-            <li>
-              <a href="#">Accueil</a>
-            </li>
-            <li> <!-- https://www.w3schools.com/howto/howto_js_collapsible.asp -->
-              <a href="#" >
-                Articles
-              </a>
-              <ul>
-                <li><a href="#">Le numérique nous rend-il plus intelligent ?</a></li>
-                <li><a href="#">Le numérique permet-il de réduire nos impacts environnementaux ?</a></li>
-                <li><a href="#">...</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="technique.html">Démarche technique</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-
+<?php
+  include('header.php');
+?>
     <div class="container">
       <header class="mt-5 mb-2 p-5">
         <h1 class="bold">Démarche technique</h1>
@@ -69,10 +35,6 @@
     </div>
   </div>
 
-    <!-- Footer -->
-    <footer class="mt-3 mb-0 py-3 text-center">
-      <p class="text-center my-0">Par <span style="font-weight: bold; text-transform: uppercase;">[ vos noms + groupe(s) ]</span> - BUT MMI 2023 - Culture du numérique</p>
-    </footer>
-
-  </body>
-</html>
+<?php
+  include('footer.php');
+?>

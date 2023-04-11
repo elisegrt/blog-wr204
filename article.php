@@ -1,3 +1,6 @@
+<?php
+  include('header.php');
+?>
 
     <div*>
       <header>
@@ -42,10 +45,6 @@
     </div>
   </div>
 
-    <!-- Footer -->
-    <footer>
-      <p>Par <span style="font-weight: bold; text-transform: uppercase;">[ vos noms + groupe(s) ]</span> - BUT MMI 2023 - Culture du numérique</p>
-    </footer>
-
-  </body>
-</html>
+<?php
+  include('footer.php');
+?>

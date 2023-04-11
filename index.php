@@ -1,138 +1,39 @@
-<html>
-  <head>
-    <title>Blog culture du numérique</title>
-    <style src="styles.css"></style>
-  </head>
-  <body>
-
-    <!-- Menu -->
-    <nav>
-      <div>
-        <a href="#"><img src="images/logo.png"></a>
-        <button>
-          <span></span>
-        </button>
-        <div>
-          <ul>
-            <li>
-              <a href="#">Accueil</a>
-            </li>
-            <li> <!-- https://www.w3schools.com/howto/howto_js_collapsible.asp -->
-              <a href="#" >
-                Articles
-              </a>
-              <ul>
-                <li><a href="#">Le numérique nous rend-il plus intelligent ?</a></li>
-                <li><a href="#">Le numérique permet-il de réduire nos impacts environnementaux ?</a></li>
-                <li><a href="#">...</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="technique.html">Démarche technique</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<?php
+  include('header.php');
+?>
 
 
-    <div>
+    <main>
       <header>
         <h1>Blog culture du numérique 🖋️🌍</h1>
       </header>
 
       <!-- Articles -->
-     <div>
-        <img src="images/article_1.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
+      <section>
+        <article>
+          <img src="" alt="">
+          <div>
+            <h5>La technologie, un outil polluant ?</h5>
+            <p>La technologie est aujourd'hui omniprésente dans nos vies, mais son impact environnemental est souvent sous-estimé. En effet, le numérique génère des coûts écologiques énormes : émissions de gaz à effet de serre, consommation d'énergie, épuisement des ressources naturelles... Face à la transformation écologique,...</p>
+            <a href="article.html">Voir l'article complet</a>
+          </div>
+        </article>
 
-      <div>
-        <img src="images/article_2.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="images/article_3.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="images/article_4.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="images/article_5.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="images/article_6.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="images/article_7.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="images/article_8.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="images/article_1.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="images/article_2.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-
-
-    <!-- Footer -->
-    <footer>
-      <p>Par <span style="font-weight: bold; text-transform: uppercase;">[ vos noms + groupe(s) ]</span> - BUT MMI 2023 - Culture du numérique</p>
-    </footer>
-
-  </body>
-</html>
+        <article>
+          <img src="" alt="">
+          <div>
+            <h5>Comment réduire l’impact environnemental d’un site web ?</h5>
+            <p>Afin de réduire notre emprunte carbone, il est important d’adopter les bons gestes. Cela commence par savoir développer un site web selon des exigences environnementales spécifiques. Pour répondre à ces exigences nous allons analyser certaines étapes...</p>
+            <a href="article.html">Voir l'article complet</a>
+          </div>
+        </article>      
+        <article>
+            <img src="" alt="">
+            <div>
+              <h5>Quelles alternatives aux objets high-tech ?</h5>
+              <p>Depuis plusieurs années, le numérique high-tech a envahi notre quotidien. Les smartphones, tablettes, ordinateurs portables, objets connectés, jeux vidéo et réseaux sociaux sont devenus des incontournables de notre vie sociale, professionnelle et personnelle. Cependant,...</p>
+              <a href="article.html">Voir l'article complet</a>
+            </div>
+        </article>
+      </section>
+</main>      
