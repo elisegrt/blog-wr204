@@ -1,7 +1,7 @@
-    <!-- Footer -->
+
     <footer>
-      <p>Par <span style="font-weight: bold; text-transform: uppercase;">[ vos noms + groupe(s) ]</span> - BUT MMI 2023 - Culture du numérique</p>
+        <p>&copy; 2023 • Blog Culture Numérique • Clément De Roberti - Elise Gratet-Taburel</p>
     </footer>
 
-  </body>
+</body>
 </html>
